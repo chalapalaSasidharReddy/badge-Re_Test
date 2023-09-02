@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+      <style>
+         body {
+            background-color: aqua;
+         }
+         h1 {
+            color: #9799a7;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+         }
+         .container:before, .container:after {
+            content: "";
+            display: table;
+         }
+         .container:after {
+            clear: both;
+         }
+         .container {
+            background: #eaeaed;
+            margin-bottom: 24px;
+            zoom: 1;
+         }
+         .container-75 {
+            width: 75%;
+         }
+         .container-50 {
+            margin-bottom: 0;
+            width: 50%;
+         }
+         .container, section, aside {
+            border-radius: 6px;
+         }
+         section, aside {
+            background: blue;
+            color: #fff;
+            margin: 1.858736059%;
+            padding: 20px 0;
+            text-align: center;
+         }
+         section {
+            float: left;
+            width: 63%;
+         }
+         aside {
+            float: right;
+            width: 37%;
+         }
+      </style>
+   </head>
+   
+   <body>
+    
+   
+      <h1>Responsive Web design</h1>
+      
+      <div class = "container -100">
+         <section>Responsive</section>
+      </div>
+      
+      <h1></h1>
+      
+      <div class = "container container-75">
+         <section>Responsive</section>
+      </div>
+      
+      <h1></h1>
+      
+      <div class = "container container-50">
+         <section>Responsive</section>
+      </div>
+      
+   </body>
+</html>
